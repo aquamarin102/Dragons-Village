@@ -1,3 +1,5 @@
+using System;
+using Scripts.World;
 using UnityEngine;
 
 namespace Scripts.Player
@@ -19,7 +21,8 @@ namespace Scripts.Player
         [SerializeField] private float _movingTresh = 0.1f;
         [SerializeField] private float _flyTresh = 1f;
 
-
+        
+        
         public float WalkSpeed => _walkSpeed;
         public float AnimationSpeed => _animationSpeed;
         public float JumpForce => _jumpForce;
