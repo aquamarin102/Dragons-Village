@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 8540390925335705025}
   - component: {fileID: 6546552289902288633}
   - component: {fileID: 8851587723211037731}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Trampoline
   m_TagString: Untagged
   m_Icon: {fileID: 0}

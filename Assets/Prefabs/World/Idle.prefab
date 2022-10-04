@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7378942507735240174}
   - component: {fileID: 7378942507735240173}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Idle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -98,7 +98,7 @@ GameObject:
   - component: {fileID: 7378942508758378399}
   - component: {fileID: 7378942508758378398}
   - component: {fileID: 7378942508758378397}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Capsule
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -239,7 +239,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7378942509374343265}
   - component: {fileID: 7378942509374343266}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Circle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
