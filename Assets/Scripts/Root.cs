@@ -47,7 +47,7 @@ public class Root : MonoBehaviour
         _mainHeroWalker = new MainHeroWalker(_characterView, _spriteAnimator);
         _aimingMuzzle = new AimingMuzzle(_cannonView.transform, _characterView.transform);
         _bulletEmitter = new BulletEmitter(_bullets, _cannonView.MuzzleTransform);
-        _сherryManager = new CherryManager( _cherres, _spriteAnimator);
+        //_сherryManager = new CherryManager( _cherres, _spriteAnimator);
         _winLoseManager = new WinLoseManager(_trapsLoseViews, _winFlagView);
 
         _protectorAI = new ProtectorAI(_characterView, new PatrolAIModel(_protectorWaypoints),
@@ -76,7 +76,7 @@ public class Root : MonoBehaviour
     {
         _protectorAI.Deinit();
         _protectedZone.Deinit();
-        _сherryManager.Dispose();
+        //_сherryManager.Dispose();
         _winLoseManager.Dispose();
     }
 }

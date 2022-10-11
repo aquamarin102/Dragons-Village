@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 2991783325132365554}
   - component: {fileID: 4491315107745342111}
   - component: {fileID: 3535665485727711481}
-  - component: {fileID: 6867102886864451577}
+  - component: {fileID: 7556451050462725241}
   m_Layer: 0
   m_Name: Cherries_0
   m_TagString: Untagged
@@ -102,7 +102,7 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.1
---- !u!114 &6867102886864451577
+--- !u!114 &7556451050462725241
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -111,7 +111,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 6729529857207641848}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5eb952e20e0d4d8aa21c8342f8e4b911, type: 3}
+  m_Script: {fileID: 11500000, guid: c0dc9e70d0024340810ef91abcd021e4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _spriteRenderer: {fileID: 4491315107745342111}
+  _completedColor: {r: 0.1886642, g: 1, b: 0, a: 0}
+  _id: 1
